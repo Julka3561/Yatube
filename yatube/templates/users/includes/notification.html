@@ -1,0 +1,19 @@
+<div class="container py-5"> 
+  <div class="row justify-content-center">
+    <div class="col-md-8 p-5">
+      <div class="card">
+        <div class="card-header">
+          {{ notification_title }}
+        </div>
+        <div class="card-body"> 
+          <p>{{ notification_text }}</p>
+          {% if link %}
+            <a href="{% url link %}">
+              войти
+            </a>
+          {% endif %}
+        </div> <!-- card body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
+  </div> <!-- row --> 
+</div>
