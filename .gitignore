@@ -149,7 +149,7 @@ dmypy.json
 sent_emails/
 
 # media files
-# media/
+media/
 
 #static files
 # static/
